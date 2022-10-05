@@ -5,7 +5,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-@ConfigurationProperties(prefix = "init")
+@ConfigurationProperties(prefix = "config")
 public class ConfigLoad {
 
     private boolean isLoaded;
